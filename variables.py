@@ -90,3 +90,59 @@ print(cadena_raw)
 cadena_unicode = u"Texto de la cadena."
 
 print(cadena_unicode)
+
+texto = "Hola mundo"
+entero = 21
+
+print (type(texto))
+print (type("Hola"))
+print (type(14.5))
+print (type(entero))
+print (type(120343485034853498529035230582390582390582390582390859023852390))
+print (type(True))
+
+texto = "10"
+decimal = 21.15
+un_entero = int(texto)
+
+print("""
+Nuevo bichito""")
+print(type(texto))
+print (type(decimal))
+print (type(un_entero))
+print (type(int(decimal)))
+print (un_entero)
+print("""
+Flotante""")
+
+flotante = float(4)
+
+print (flotante)
+print (type(flotante))
+print("""
+Cadena""")
+
+entero = 5
+decimal = 21.15
+cadena_entero = str(entero)
+cadena_decimal = str(decimal)
+
+print (cadena_entero)
+print (type(cadena_entero))
+print (cadena_decimal)
+print (type(cadena_decimal))
+print("""
+Binarios, octales y hexadecimales"""
+)
+
+entero = 500
+hexadecimal = hex(entero)
+octal = oct(entero)
+binario = bin(entero)
+
+print (hexadecimal)
+print (type(hexadecimal))
+print (octal)
+print (type(octal))
+print (binario)
+print (type(binario))
