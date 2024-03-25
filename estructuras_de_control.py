@@ -43,4 +43,55 @@ while primero <= 7:
     primero += 1
 print("###################")
 
+lista = ["calcetín", "pantalón", "camisa", "camiseta", "otro calcetín", "gorra"]
 
+for prenda in lista:
+    print ("La lavadora se ha comido mi " + prenda)
+
+saludo = "Hola mundo"
+
+for letra in saludo[:]:
+    print (letra)
+
+datos = {
+"Nombre": "José",
+"Apellido": "Gonzales",
+"Altura": "1,80"
+}
+
+for concepto in datos:
+    print (concepto)
+for concepto in datos:
+    print (concepto + ": " + datos[concepto]) 
+for concepto, valor in datos.items():
+    print (concepto + ": " + valor)
+
+dividendo = 1
+divisor = 0
+
+resultado = dividendo/dividendo
+print ("La división resulta: ", resultado)
+print ("Hemos terminado.")
+
+try:
+    resultado = dividendo/divisor
+    print ("La división resulta: ", resultado)
+except:
+    if divisor == 0:
+        print("Desafortunadamente, no puedes dividir por cero.")
+
+print ("Hemos terminado.")
+
+dividendo = "A"
+divisor = 2
+
+try:
+    resultado = dividendo/divisor
+except ZeroDivisionError:
+    if divisor == 0:
+        print ("Desafortunadamente, no puedes dividir por cero.")
+except TypeError:
+    print("Desafortunadamente, no se puede dividir textos con números")
+    
+else:
+    print("La división resulta: ", resultado)
