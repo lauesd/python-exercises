@@ -5,4 +5,3 @@ numero = int(input("¿Podrías poner un número, porfa?: "))
 for i in range(numero, 0 - 1, -1):
     print(i, end=", ")
 
-    
